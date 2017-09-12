@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/addlayout">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="76dp"
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="统计人数"
+        android:textSize="33sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="分数段："
+            android:textColor="@color/black"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scoreRadioGroup"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/passRadioButton"
+                android:text="及格"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/failRadioButton"
+                android:text="挂科"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+        </RadioGroup>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="33dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="选择科目："
+                android:textSize="20sp"
+                android:textColor="@color/black"/>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/subjectRadioGroup"
+                android:orientation="vertical"
+                android:textSize="16sp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cRadioButton"
+                    android:text="C语言"/>
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/moRadioButton"
+                    android:text="模电"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/gaoRadioButton"
+                    android:text="高数" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/englishRadioButton"
+                    android:text="英语"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tiRadioButton"
+                    android:text="体育"/>
+            </RadioGroup>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/statistics_sure_button"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/log_button"
+        android:layout_marginLeft="69dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="确定"
+        android:textSize="10sp"
+        android:textColor="@color/login_button"  />
+
+    <Button
+        android:id="@+id/statistics_cancel_button"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/log_button"
+        android:layout_marginLeft="69dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="取消"
+        android:textSize="10sp"
+        android:textColor="@color/login_button" />
+</LinearLayout>

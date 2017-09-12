@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFAF0</color>
+    <color name="colorPrimaryDark">#FF4081</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="login_text">#333333</color>
+    <color name="login_edit">#cccccc</color>
+    <color name="login_button">#ffffff</color>
+    <color name="black">#080808</color>
+    <color name="blue">#00e5ee</color>
+    <color name="green">#ccff99</color>
+    <color name="red">#cc0000</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#F5F5F5</color>
+    <color name="actionbar">#98F5FF</color>
+</resources>

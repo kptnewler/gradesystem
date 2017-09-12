@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/header_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/header_checkbox"
+        android:button="@null" />
+
+    <TextView
+        android:id="@+id/header_name_text"
+        android:gravity="center"
+        android:layout_width="55dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="0dp"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="姓名"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="85dp"
+        android:layout_height="35dp"
+        android:id="@+id/header_stuId_text"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="学号"/>
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="73dp"
+        android:layout_height="35dp"
+        android:id="@+id/header_avr_text"
+        android:layout_marginLeft="18dp"
+        android:textColor="@color/red"
+        android:textSize="20dp"
+        android:text="平均分"/>
+
+    <Button
+        android:id="@+id/all_button"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:textSize="10sp"
+        android:text="查看全部"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/log_button"/>
+</LinearLayout>

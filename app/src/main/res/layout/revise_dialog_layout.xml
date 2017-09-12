@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/addlayout">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="86dp"
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="修改信息"
+        android:textSize="33sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:background="@drawable/login_edit_type1"
+                android:layout_width="240dp"
+                android:layout_height="30dp">
+                <TextView
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/stu_id_text2"
+                    android:textColor="@color/black"
+                    android:text="学号"
+                    android:textSize="15sp"/>
+                <EditText
+                    android:gravity="center_vertical"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:id="@+id/stu_id_edit2"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/login_edit"
+                    android:textSize="15sp"
+                    android:maxLength="10"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="240dp"
+                android:layout_height="30dp"
+                android:orientation="horizontal"
+                android:background="@drawable/login_edit_type3">
+                <TextView
+                    android:id="@+id/stu_name_text2"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:text="姓名"/>
+
+                <EditText
+                    android:background="@null"
+                    android:id="@+id/stu_name_edit2"
+                    android:gravity="center_vertical"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColorHint="@color/login_edit"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:enabled="false"/>
+            </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_type3">
+            <TextView
+                android:id="@+id/stu_c_text2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="C语言"
+                android:maxLength="3"/>
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/stu_c_edit2"
+                android:gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/login_edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_type3">
+            <TextView
+                android:id="@+id/stu_mo_text2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="模电"
+                android:maxLength="3"/>
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/stu_mo_edit2"
+                android:gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/login_edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_type3">
+            <TextView
+                android:id="@+id/stu_gao_text2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="高数"/>
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/stu_gao_edit2"
+                android:gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/login_edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:maxLength="3"
+                android:enabled="false"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_type3">
+            <TextView
+                android:id="@+id/stu_english_text2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:text="英语" />
+
+            <EditText
+                android:background="@null"
+                android:id="@+id/stu_english_edit2"
+                android:gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/login_edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:maxLength="3"
+                android:enabled="false"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:background="@drawable/login_edit_type2"
+            >
+            <TextView
+                android:id="@+id/stu_ti_text2"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="30dp"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:textColor="@color/black"
+                android:text="体育"
+                android:textSize="15sp"
+                android:maxLength="3"/>
+            <EditText
+                android:background="@null"
+                android:id="@+id/stu_ti_edit2"
+                android:gravity="center_vertical"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="15dp"
+                android:textColorHint="@color/login_edit"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:enabled="false"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/revise_button"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/log_button"
+        android:layout_marginLeft="82dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="修改"
+        android:textSize="15sp"
+        android:textColor="@color/login_button"  />
+
+    <Button
+        android:id="@+id/sure_button2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/log_button"
+        android:layout_marginLeft="82dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="确定"
+        android:textSize="15sp"
+        android:textColor="@color/login_button" />
+
+    <Button
+        android:id="@+id/cancel_button2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/log_button"
+        android:layout_marginLeft="82dp"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:text="返回"
+        android:textSize="15sp"
+        android:textColor="@color/login_button" />
+</LinearLayout>

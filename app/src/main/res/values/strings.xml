@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">成绩管理系统</string>
+    <string name="login_text_term">学期  </string>
+    <string name="login_text_id">学号  </string>
+    <string name="login_text_password">密码  </string>
+    <string name="login_edit_term">点击输入您的学期</string>
+    <string name="login_edit_id">请输入您的账号</string>
+    <string name="login_edit_password">请输入您的密码</string>
+    <string name="teacher">教师</string>
+    <string name="student">学生</string>
+    <string name="login_button">登录</string>
+    <string name="register_button">注册</string>
+    <string name="title">成绩管理系统</string>
+    <string name="title_activity_major">MajorActivity</string>
+    <string name="grade_edit">请您输入成绩</string>
+    <string name="title_activity_main22">Main22Activity</string>
+    <string name="permission_warn">申请权限被拒绝可能会影响部分功能,请您在手机设置打开</string>
+</resources>

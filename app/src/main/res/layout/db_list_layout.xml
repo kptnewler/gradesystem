@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textColor="@color/black"
+    android:textSize="12sp"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/myCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/db_name_text"
+                android:gravity="center"
+                android:layout_width="45dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="85dp"
+                android:layout_height="25dp"
+                android:id="@+id/db_stuId_text"
+                android:layout_marginLeft="20dp"/>
+
+            <TextView
+                android:gravity="center"
+                android:layout_width="73dp"
+                android:layout_height="25dp"
+                android:id="@+id/db_avr_text"
+                android:layout_marginLeft="20dp"/>
+
+
+            <Button
+                android:id="@+id/detail_button"
+                android:layout_width="61dp"
+                android:layout_height="25dp"
+                android:textSize="10sp"
+                android:text="查看详情"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/log_button"/>
+</LinearLayout>
